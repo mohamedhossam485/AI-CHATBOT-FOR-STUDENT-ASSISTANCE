@@ -1,0 +1,23 @@
+{
+  "_comment": "V-ASA v3.0 - Project configuration",
+  "name": "vistula-ai-assistant-3",
+  "version": "3.0.0",
+  "main": "server.js",
+  "scripts": {
+    "_comment": "Available npm commands",
+    "start": "node server.js",
+    "chunks_data": "node scripts/chunkContent.js",
+    "embeddings": "python scripts/generate_embeddings.py",
+    "train-reranker": "python scripts/train_reranker.py",
+    "embedding-service": "python scripts/embedding_service.py 6000",
+    "reranker-service": "python scripts/reranker_service.py 6001",
+    "crawl": "node scripts/fullCrawler.js"
+  },
+  "dependencies": {
+    "_comment": "Required Node.js packages",
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}

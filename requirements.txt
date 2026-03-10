@@ -1,0 +1,6 @@
+sentence-transformers=2.2.2
+scikit-learn=1.3.2
+numpy=1.24.3
+flask=3.0.0
+joblib=1.3.2
+key=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
